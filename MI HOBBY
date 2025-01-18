@@ -1,0 +1,5 @@
+def agregar_hobby(BICI):
+    # Abre el archivo en modo append para agregar contenido al final del archivo
+    with open('hobbies.txt', 'a') as file: PASEAR EN BICI POR LA PLAYA 
+        file.write(hobby + '\n')
+    print(f'Hobby "{hobby}" agregado con éxito.')
